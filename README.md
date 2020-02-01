@@ -1,4 +1,4 @@
-# CoreFunctionalityPlugin
+# Core Functionality Plugin
 
 A plugin to keep the functionalities unrelated to theme-develop.
 
