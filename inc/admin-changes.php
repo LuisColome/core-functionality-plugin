@@ -36,3 +36,13 @@ function lcm_remove_nodes(){
 	$wp_admin_bar->remove_node('comments');
 
 }
+
+/**
+ * Login Logo URL
+ *
+ */
+function ea_login_header_url( $url ) {
+	return esc_url( home_url() );
+}
+add_filter( 'login_headerurl', 'ea_login_header_url' );
+add_filter( 'login_headertext', '__return_empty_string' );
