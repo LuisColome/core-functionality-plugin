@@ -10,7 +10,7 @@ This plugin was created to use mainly in small client sites based on the way I w
 
 ## Requirements
 
-- WordPress 4.2 , tested up to 5.3.2
+- WordPress 4.2 , tested up to 5.5.3
 
 ## Installation
 
