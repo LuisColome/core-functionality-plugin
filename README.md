@@ -10,7 +10,7 @@ This plugin was created to use mainly in small client sites based on the way I w
 
 ## Requirements
 
-- WordPress 4.2 , tested up to 5.5.3
+- WordPress 4.2 , tested up to 5.7
 
 ## Installation
 
@@ -22,12 +22,12 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 - Added more nodes to remove from WordPress Admin Bar. Just uncommoment to remove.
 - Added the file 'kill-pingbacks.php' to kill all the pingbacks from WordPress.
-- Tested in 5.3.2 WordPress version.
+- Tested in 5.7 WordPress version.
 - Updated README.md file.
 
 ## Credits , Copyright and License
 
-2019-2020 &copy; [Luis Colomé](http://www.luiscolome.com/)
+2020-2021 GPL [Luis Colomé](https://luiscolome.com/)
 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
