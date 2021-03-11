@@ -92,6 +92,7 @@ if ( ! function_exists('lcm_cpt_portfolio_cat_taxonomy') ) {
 					'labels'            => $labels,
 					'show_ui'           => true,
 					'show_admin_column' => true,
+					'show_in_rest'        => true,
 					'query_var'         => true,
 					'rewrite'           => array( 'slug' => 'portfolio-cat' ),
 			);
