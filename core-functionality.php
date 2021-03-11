@@ -3,7 +3,7 @@
  * Plugin Name: Core Functionality
  * Plugin URI: https://github.com/Luisoncm/Core-functionality-plugin
  * Description: This contains all your site's core functionality so that it is theme independent.
- * Version: 0.0.8
+ * Version: 0.0.9
  * Author: Luis Colomé
  * Author URI: http://www.luiscolome.com
  *
@@ -20,3 +20,4 @@ require_once( LCM_DIR . '/inc/general.php'            ); // General
 require_once( LCM_DIR . '/inc/cpt-portfolio.php'      ); // Portfolio CPT
 require_once( LCM_DIR . '/inc/admin-changes.php'      ); // Sample Widge
 require_once( LCM_DIR . '/inc/kill-pingbacks.php'    ); // Removing and killing pingbacks.
+require_once( LCM_DIR . '/inc/category-fix.php'    ); // Category pagination fix.
