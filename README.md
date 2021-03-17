@@ -20,7 +20,7 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ### 0.9.5
 
-- Added Team CPT that I use in almost every WordPress Website I lately do. 
+- Added Team CPT that I use in almost every WordPress Website I lately create. 
 - Added Category pagination fix when /%category%/%post%/ permaling structure is used to avoid 404 errors.
 
 ### 0.9.0
