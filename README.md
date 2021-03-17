@@ -18,9 +18,14 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ## Changelog
 
-### 0.0.9
+### 0.9.5
 
-- Added more nodes to remove from WordPress Admin Bar. Just uncommoment to remove.
+- Added Team CPT that I use in almost every WordPress Website I lately do. 
+- Added Category pagination fix when /%category%/%post%/ permaling structure is used to avoid 404 errors.
+
+### 0.9.0
+
+- Added more nodes to remove from WordPress Admin Bar. Just uncomment them to remove those nodes.
 - Added the file 'kill-pingbacks.php' to kill all the pingbacks from WordPress.
 - Tested in 5.7 WordPress version.
 - Updated README.md file.
@@ -28,7 +33,7 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 ## Credits , Copyright and License
 
 2020-2021 GPL [Luis Colomé](https://luiscolome.com/)
-
+Thanks to [Lars Nyström](https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php) for his Category  Pagination Fix plugin. 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
 ##### Discalimer
