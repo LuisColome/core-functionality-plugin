@@ -4,8 +4,9 @@ A plugin to keep the functionalities unrelated to theme-develop.
 
 ## Description
 
-This plugin holds functionalities to improve your WordPress instalation and creates a custom post type for portfolio items. It creates a new interface to manage your portfolio posts separate from blog posts and web pages.<br>
-It also renames the WordPress dashboard **Posts** in to **Blog posts**.
+This plugin holds functionalities to improve your WordPress instalation and creates a custom post type for portfolio items.<br>
+It creates a two new interfaces to manage your portfolio posts and Team members separate from blog posts and web pages.<br>
+It also renames the WordPress dashboard **Posts** in to **Blog posts**.<br>
 This plugin was created to use mainly in small client sites based on the way I work and my personal needs as a WordPress developer.
 
 ## Requirements
@@ -39,9 +40,9 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ## Credits , Copyright and License
 
-2020-2021 GPL [Luis Colomé](https://luiscolome.com/).
-Thanks to [Lars Nyström](https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php) for his Category Pagination Fix plugin.
-This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
+2020-2021 GPL [Luis Colomé](https://luiscolome.com/).<br>
+Thanks to [Lars Nyström](https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php) for his Category Pagination Fix plugin.<br>
+This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.<br>
 
 ##### Disclaimer
 
