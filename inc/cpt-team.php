@@ -52,7 +52,7 @@ if ( ! function_exists('lcm_create_cpt_team') ) {
 					'show_in_nav_menus'   => true,
 					'can_export'          => true,
 					'has_archive'         => false,
-					'rewrite' 			  => array('slug' => '/team'),
+					'rewrite' 			  => array('slug' => 'team'),
 					'exclude_from_search' => false,
 					'publicly_queryable'  => true,
 					'capability_type'     => 'page',

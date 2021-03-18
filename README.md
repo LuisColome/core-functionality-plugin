@@ -5,7 +5,7 @@ A plugin to keep the functionalities unrelated to theme-develop.
 ## Description
 
 This plugin holds functionalities to improve your WordPress instalation and creates a custom post type for portfolio items.<br>
-It creates a two new interfaces to manage your portfolio posts and Team members separate from blog posts and web pages.<br>
+It creates a two new Custom Post Types to manage your **Portfolio posts** and **Team members** separate from native blog posts and web pages.<br>
 It also renames the WordPress dashboard **Posts** in to **Blog posts**.<br>
 This plugin was created to use mainly in small client sites based on the way I work and my personal needs as a WordPress developer.
 
