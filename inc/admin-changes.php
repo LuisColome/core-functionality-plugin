@@ -27,7 +27,6 @@ add_action( 'admin_menu', 'change_post_menu_label' );
  * Remove items from admin bar
  * 
  */ 
-add_action( 'admin_bar_menu', 'lcm_remove_nodes', 999 );
 function lcm_remove_nodes(){
 	
 	global $wp_admin_bar;
@@ -40,15 +39,6 @@ function lcm_remove_nodes(){
 	//$wp_admin_bar->remove_node('my-account');
 	//$wp_admin_bar->remove_node('search');
 	//$wp_admin_bar->remove_node('customize');
-
 }
+add_action( 'admin_bar_menu', 'lcm_remove_nodes', 999 );
 
-/**
- * Login Logo URL
- *
- */
-function ea_login_header_url( $url ) {
-	return esc_url( home_url() );
-}
-add_filter( 'login_headerurl', 'ea_login_header_url' );
-add_filter( 'login_headertext', '__return_empty_string' );
