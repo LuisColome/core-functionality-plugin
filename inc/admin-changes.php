@@ -42,3 +42,24 @@ function lcm_remove_nodes(){
 }
 add_action( 'admin_bar_menu', 'lcm_remove_nodes', 999 );
 
+
+/**
+ * Add a link to plugins page under the (Home icon) site name in the admin bar on the frontend.
+ * 
+ */
+function lcm_add_plugin_link_to_admin_bar() {
+	global $wp_admin_bar;
+
+    if ( !is_admin() ) {
+        $wp_admin_bar->add_menu( array(
+            'parent' => 'site-name', // site-name is the ID for home menu so we use it as the parent ID.
+            'id' => 'custom_plugins_link', // You can add any value here as you are adding something very new here.
+            'title' => __( 'Plugins' ), // The anchor text.
+            'href' => home_url() . '/wp-admin/plugins.php', // URL to plugins page.
+            'meta'  => array(
+                'target' => '_blank', // Open in another tab.
+            ),
+        ));
+    }
+}
+add_action( 'wp_before_admin_bar_render', 'lcm_add_plugin_link_to_admin_bar' );
