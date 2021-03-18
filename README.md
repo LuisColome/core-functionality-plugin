@@ -20,7 +20,7 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 ### 1.0.0
 
-- Remove the Login Logo URL function, as it was added to my starter theme.
+- Remove the Login Logo URL function, as it was added to my [Genesis Starter Theme](https://github.com/LuisColome/the-dock).
 - Added a function to add a link to the Plugins page from the Frontend, under Site's name.
 - Clean the code.
 - README updated.
