@@ -1,27 +1,14 @@
 <?php
-/*
-Plugin Name: Category pagination fix
-Plugin URI: https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php
-Description: Fixes 404 page error in pagination of category page while using custom permalink. Now added support for custom post types by using snippets from jdantzer plugin
-Version: 3.2.2-fix1
-Author: rahnas
-Author URI: http://www.htmlremix.com
-
-Copyright 2009  Creative common  (email: mail@htmlremix.com)
-
-This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-You are allowed to use, change and redistibute without any legal issues. I am not responsible for any damage caused by this program. Use at your own risk
-Tested with Wordpress 3. Works with wp-pagenavi
-*/
+/**
+ * Category pagination fix
+ *
+ * Fixes 404 page error in pagination of category page while using custom permalink. Now added support for custom post types by using snippets from jdantzer plugin
+ *
+ * @package		CoreFunctionality
+ * @author		rahnas
+ * @link		    https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php
+ * @license    	GPL-2.0+
+ */
 
 
 /**

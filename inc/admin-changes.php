@@ -1,7 +1,5 @@
 <?php
 /**
- * Core Functionality Plugin
- * 
  * Custom Admin Menu changes
  * 
  * @package    CoreFunctionality

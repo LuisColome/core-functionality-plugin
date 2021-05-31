@@ -1,10 +1,10 @@
 <?php
 /**
- * Core Functionality Plugin
+ * Portfolio CPT
  * 
- * @package			CoreFunctionality
- * @author		 	Luis Colomé
- * @link				https://github.com/Luisoncm/Core-functionality-plugin
+ * @package		CoreFunctionality
+ * @author		Luis Colomé
+ * @link		https://github.com/LuisColome/CoreFunctionalityPlugin/blob/master/inc/cpt-portfolio.php
  * @since      	0.0.8
  * @license    	GPL-2.0+
  */
