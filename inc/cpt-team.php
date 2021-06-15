@@ -1,10 +1,10 @@
 <?php
 /**
- * Core Functionality Plugin
+ * Team CPT
  * 
  * @package		CoreFunctionality
  * @author		Luis Colomé
- * @link		https://github.com/Luisoncm/Core-functionality-plugin
+ * @link		https://github.com/LuisColome/CoreFunctionalityPlugin/blob/master/inc/cpt-team.php
  * @since      	0.0.8
  * @license    	GPL-2.0+
  */
