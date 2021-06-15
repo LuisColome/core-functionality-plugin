@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog (Spanish version), and this project adheres to Semantic Versioning (or at least I'll try to).
 
+#### [Version 1.0.1.1] - 2021-31-05
+- [Fix] Target of plugins link on the Admin bar added in version 1.0.0.
+
 #### [Version 1.0.1] - 2021-31-05
 - [Fix] Remove the Changelog list from the Readme file and create a proper separate file.
 - [Fix] Update the Changelog format for a better human readability.
@@ -10,7 +13,7 @@ The format is based on Keep a Changelog (Spanish version), and this project adhe
 
 #### [Version 1.0.0]
 - [Remove] the Login Logo URL function, as it was added to my [Genesis Starter Theme](https://github.com/LuisColome/the-dock).
-- [Add] a function to add a link to the Plugins page from the Frontend, under Site's name.
+- [Add] a function to add a link to the Plugins page from the Frontend under Site's name.
 - [Fix]Clean the code.
 - [Update]README updated.
 
