@@ -57,7 +57,7 @@ function lcm_add_plugin_link_to_admin_bar() {
             'title' => __( 'Plugins' ), // The anchor text.
             'href' => home_url() . '/wp-admin/plugins.php', // URL to plugins page.
             'meta'  => array(
-                'target' => '_blank', // Open in another tab.
+                'target' => '_self', // Open in another tab.
             ),
         ));
     }
