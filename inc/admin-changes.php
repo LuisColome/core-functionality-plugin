@@ -65,6 +65,7 @@ add_action( 'wp_before_admin_bar_render', 'lcm_add_plugin_link_to_admin_bar' );
 /**
  * Add a link to Reusable blocks nn Apperance menu.
  * 
+ * @since 1.0.1.2
  */
 function add_custom_link_into_appearnace_menu() {
     global $submenu;
