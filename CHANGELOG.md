@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog (Spanish version), and this project adheres to Semantic Versioning (or at least I'll try to).
 
+#### [Version 1.0.1.2] - 2021-13-08
+- [Add] Link to Reusable Blocks in Appereance menu.
+
 #### [Version 1.0.1.1] - 2021-31-05
 - [Fix] Target of plugins link on the Admin bar added in version 1.0.0.
 
