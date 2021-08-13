@@ -3,7 +3,7 @@
  * Plugin Name: Core Functionality
  * GitHub Plugin URI: https://github.com/Luisoncm/Core-functionality-plugin
  * Description: This contains all your site's core functionality so that it is theme independent.
- * Version: 1.0.1.1
+ * Version: 1.0.1.2
  * Author: Luis Colomé
  * Author URI: http://www.luiscolome.com
  *
