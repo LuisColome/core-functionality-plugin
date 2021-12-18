@@ -13,6 +13,9 @@
  *
  */
 
+// Don't load directly
+if (!defined('ABSPATH')) { exit; }
+
 // Plugin Directory 
 define( 'LCM_DIR', dirname( __FILE__ ) );
 
