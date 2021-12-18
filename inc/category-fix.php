@@ -6,7 +6,7 @@
  *
  * @package		CoreFunctionality
  * @author		rahnas
- * @link		    https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php
+ * @link		https://github.com/larsnystrom/category-pagination-fix/blob/master/category-pagefix.php
  * @license    	GPL-2.0+
  */
 
