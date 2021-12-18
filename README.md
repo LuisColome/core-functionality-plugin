@@ -1,5 +1,5 @@
 # WordPress Core Functionalities Plugin
-[![WordPress Core Functionalities Plugin v1.0.1.2 badge][changelog-badge]][changelog] [![Version v1.0.1.2 Badge][version-badge]][changelog] [![Last Commit Badge][last-commit-badge]][commits]
+[![WordPress Core Functionalities Plugin v1.0.2 badge][changelog-badge]][changelog] [![Version v1.0.2 Badge][version-badge]][changelog] [![Last Commit Badge][last-commit-badge]][commits]
 
 A plugin to keep the functionalities unrelated to theme-develop. Thought-out for developers. 
 
@@ -31,6 +31,6 @@ This software is **WITHOUT WARRANTY** as per the GNU General Public License, and
 
 [changelog]: ./CHANGELOG.md
 [commits]: https://github.com/LuisColome/mamiexperimentos/commits/develop
-[changelog-badge]: https://img.shields.io/badge/changelog-Core%20Genesis%20Functionality%20Plugin%20v1.0.1.2-orange
-[version-badge]: https://img.shields.io/badge/version-v1.0.1.2-blue
+[changelog-badge]: https://img.shields.io/badge/changelog-Core%20Genesis%20Functionality%20Plugin%20v1.0.2-orange
+[version-badge]: https://img.shields.io/badge/version-v1.0.2-blue
 [last-commit-badge]: https://img.shields.io/github/last-commit/LuisColome/CoreFunctionalityPlugin?color=green
