@@ -40,6 +40,18 @@ function lcm_remove_nodes(){
 }
 add_action( 'admin_bar_menu', 'lcm_remove_nodes', 999 );
 
+/**
+ * Removes "Howdy" greeting text next to username in admin bar.
+ * 
+ */
+function lcm_remove_howdy($wp_admin_bar) {
+	$my_account = $wp_admin_bar->get_node('my-account');
+	$wp_admin_bar->add_node(array(
+		'id' => 'my-account',
+		'title' => str_replace('Howdy, ', '', $my_account->title),
+	));
+}
+add_action('admin_bar_menu', 'lcm_remove_howdy', 10, 1);
 
 /**
  * Add a link to plugins page under the (Home icon) site name in the admin bar on the frontend.
