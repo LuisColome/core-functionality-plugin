@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 #### [Version 1.0.2](https://github.com/LuisColome/CoreFunctionalityPlugin/releases/tag/v1.0.2) - 2021-18-12
 #### Added 
 - Function to remove the "Howdy" from the user link on the admin bar.
+- Function to prevent for the main file to be loaded directly. 
 
 #### [Version 1.0.1.2](https://github.com/LuisColome/CoreFunctionalityPlugin/releases/tag/v1.0.1.2) - 2021-13-08
 #### Added
