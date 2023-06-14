@@ -24,6 +24,8 @@ add_filter( 'login_headertext', '__return_empty_string' );
  */
 function ea_login_logo() {
 
+    // Variable to get the image from the plugin's folder
+    // $fallback_logo = plugin_dir_url( dirname( __FILE__ ) ) . '/img/logo.svg';
 	$logo_path = '/wp-content/uploads/logo.svg';
 	
     ?>
