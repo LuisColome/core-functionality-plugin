@@ -7,18 +7,46 @@
  * @license    GPL-2.0+
  */
 
+// Not a WordPress context? Stop.
+! defined( 'ABSPATH' ) and exit;
+
+
 /**
- * Rename Posts to Articles in Menu
+ * Change Posts name to Blog articles in WP dashboard
  * 
+ * @author Scott
+ * @link https://wordpress.stackexchange.com/questions/49414/change-existing-label-in-the-admin-bar-with-something-else
  */
-function change_post_menu_label() {
-	global $menu;
-	global $submenu;
-	$menu[5][0] = 'Blog Articles';
-	$submenu['edit.php'][5][0] = 'Blog Articles';
-	$submenu['edit.php'][10][0] = 'Add New ';
+class chg_Posts_to_Articles
+{
+    public static function init()
+    {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Blog articles';
+        $labels->singular_name = 'Blog articles';
+        $labels->add_new = 'Add Blog articles';
+        $labels->add_new_item = 'Add Blog articles';
+        $labels->edit_item = 'Edit Blog articles';
+        $labels->new_item = 'Blog articles';
+        $labels->view_item = 'View Blog articles';
+        $labels->search_items = 'Search Blog articles';
+        $labels->not_found = 'No Blog articles found';
+        $labels->not_found_in_trash = 'No Blog articles found in trash';
+        $labels->name_admin_bar = 'Blog article';
+    }
+
+    public static function admin_menu()
+    {
+        global $menu;
+        global $submenu;
+        $menu[5][0] = 'Blog articles';
+        $submenu['edit.php'][5][0] = 'Blog articles';
+        $submenu['edit.php'][10][0] = 'Add Blog article';
+    }
 }
-add_action( 'admin_menu', 'change_post_menu_label' );
+add_action( 'init', array ( 'chg_Posts_to_Articles', 'init' ) );
+add_action( 'admin_menu', array ( 'chg_Posts_to_Articles', 'admin_menu' ) );
 
 
 /**
