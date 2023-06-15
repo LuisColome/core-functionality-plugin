@@ -1,7 +1,8 @@
 # WordPress Core Functionalities Plugin
-[![WordPress Core Functionalities Plugin v1.0.2 badge][changelog-badge]][changelog] [![Version v1.0.2 Badge][version-badge]][changelog] [![Last Commit Badge][last-commit-badge]][commits]
 
-A plugin to keep the functionalities unrelated to theme-develop. Thought-out for developers. 
+[![WordPress Core Functionalities Plugin v1.0.2.1 badge][changelog-badge]][changelog] [![Version v1.0.2.1 Badge][version-badge]][changelog] [![Last Commit Badge][last-commit-badge]][commits]
+
+A plugin to keep the functionalities unrelated to theme-develop. Thought-out for developers.
 
 ## Description
 
@@ -12,7 +13,7 @@ This plugin was created to use mainly in small client's sites (and my own), base
 
 ## Requirements
 
-- WordPress 4.2 , tested up to 5.8.2
+-   WordPress 5.3 , tested up to 6.2.2
 
 ## Installation
 
@@ -28,9 +29,17 @@ This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-lic
 
 This software is **WITHOUT WARRANTY** as per the GNU General Public License, and very much a work in progress. :octocat:
 
-
 [changelog]: ./CHANGELOG.md
+
+<<<<<<< HEAD
 [commits]: https://github.com/LuisColome/CoreFunctionalityPlugin/commits/master
 [changelog-badge]: https://img.shields.io/badge/changelog-WordPress%20Core%20Functionality%20Plugin%20v1.0.2-orange
 [version-badge]: https://img.shields.io/badge/version-v1.0.2-blue
 [last-commit-badge]: https://img.shields.io/github/last-commit/LuisColome/CoreFunctionalityPlugin?color=green
+=======
+[commits]: https://github.com/LuisColome/mamiexperimentos/commits/develop
+[changelog-badge]: https://img.shields.io/badge/changelog-Core%20Genesis%20Functionality%20Plugin%20v1.0.2.1-orange
+[version-badge]: https://img.shields.io/badge/version-v1.0.2.1-blue
+[last-commit-badge]: https://img.shields.io/github/last-commit/LuisColome/CoreFunctionalityPlugin?color=green
+
+> > > > > > > develop
