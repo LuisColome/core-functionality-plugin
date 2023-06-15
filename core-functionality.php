@@ -23,6 +23,5 @@ require_once( LCM_DIR . '/inc/general.php'); // General
 // require_once( LCM_DIR . '/inc/cpt-portfolio.php'); // Portfolio CPT
 // require_once( LCM_DIR . '/inc/cpt-team.php'); // Team CPT
 require_once( LCM_DIR . '/inc/admin-changes.php'); // Admin changes
-require_once( LCM_DIR . '/inc/custom.php'); // Tags and categories support.
 require_once( LCM_DIR . '/inc/kill-pingbacks.php'); // Removing and killing pingbacks.
 require_once( LCM_DIR . '/inc/category-fix.php'); // Category pagination fix.
