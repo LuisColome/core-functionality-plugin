@@ -3,7 +3,7 @@
  * Plugin Name: WordPress Core Functionality
  * GitHub Plugin URI: https://github.com/Luisoncm/Core-functionality-plugin
  * Description: <strong>DO NOT DISABLE!</strong> This contains all your site's core functionality so that it is theme independent.
- * Version: 1.0.2.1
+ * Version: 1.0.2.2
  * Author: Luis Colomé
  * Author URI: http://www.luiscolome.com
  *
