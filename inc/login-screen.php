@@ -2,7 +2,7 @@
 /**
  * Login Logo
  *
- * @package      Marbella Design School 
+ * @package      CoreFunctionality
  * @author       Luis Colomé
  * @since        1.0.0
  * @license      GPL-2.0+
@@ -24,9 +24,9 @@ add_filter( 'login_headertext', '__return_empty_string' );
  */
 function ea_login_logo() {
 
-    // Variable to get the image from the plugin's folder
-    // $fallback_logo = plugin_dir_url( dirname( __FILE__ ) ) . '/img/logo.svg';
-	$logo_path = '/wp-content/uploads/logo.svg';
+    // Variable to get the images
+    $image_url = plugin_dir_url( dirname( __FILE__ ) ) . '/img/user.svg';
+    $image_bg = plugin_dir_url( dirname( __FILE__ ) ) . '/img/dots.png';
 	
     ?>
     <style type="text/css">
@@ -40,6 +40,7 @@ function ea_login_logo() {
             hsl(212, 66%, 82%) 100%
         );
         height: 100vh;
+        height: 100svh;
         overflow: hidden;
     }
     body.login::before {
@@ -65,29 +66,57 @@ function ea_login_logo() {
             transform: rotate(16deg) translateX(-80%) translateY(-15%);
         }
     }
-    #login {
+    .login #login {
         position: relative;
+        width: 360px;
         z-index: 9;
+        padding: 0;
     }
-    .login form {
+    .login #login form {
+        position: relative;
         border: none;
-        border-radius: 10px;
+        border-radius: 2rem;
+        box-shadow: 0px 1px 32px rgba(0,0,0,.24);
+        padding: 4% 8% 8%;
+        background-image: url(<?php echo $image_bg;?>);
+        background-size: contain;
+        background-repeat: no-repeat;
+	    background-position: top center;
     }
-    .login .message, .login .success, .login form {
-        box-shadow: 0px 1px 8px rgba(0,0,0,.15);
-    }
-    #login h1 a, .login h1 a {
-        background-image: url(<?php echo $logo_path;?>);
+    .login #login form::before {
+        content:"";
+        background-image: url(<?php echo $image_url;?>);
         background-size: contain;
         background-repeat: no-repeat;
 	    background-position: center center;
         display: block;
-        overflow: hidden;
-        text-indent: -9999em;
-        width: 312px;
-        height: 100px;
+        /* overflow: hidden; */
+        width: 4rem;
+        height: 4rem;
+        margin-inline: auto;
+        padding-block: 0 1rem;
     }
-    
+    .login #login .notice {
+        box-shadow: 0px 1px 32px rgba(0,0,0,.24);
+        border-radius: 16px;
+    }
+    .login #login h1 a, .login h1 a {
+        background-image: none;
+        display: block;
+        overflow: hidden;
+        text-indent: 0;
+        width: 360px;
+        height: 2rem;
+        /* display: none; */
+    }
+    .login #login h1 a::before {
+        content:"<?php echo get_bloginfo( 'name' ); ?>";
+        font-weight: 600;
+    }
+    .login #login #nav, .login #login #backtoblog {
+        text-align: center;
+    }
+
     </style>
     <?php
 }
