@@ -2,6 +2,8 @@
 
 [![WordPress Core Functionalities Plugin v1.0.2.2 badge][changelog-badge]][changelog] [![Version v1.0.2.2 Badge][version-badge]][changelog] [![Last Commit Badge][last-commit-badge]][commits]
 
+![Core Functionalities Image](img/screenshot.png)
+
 A plugin to keep the functionalities unrelated to theme-develop. Thought-out for developers.
 
 ## Description
@@ -13,7 +15,7 @@ This plugin was created to use mainly in small client's sites (and my own), base
 
 ## Requirements
 
--   WordPress 5.3 , tested up to 6.2.2
+-   WordPress 5.3 , tested up to 6.5.2
 
 ## Installation
 
